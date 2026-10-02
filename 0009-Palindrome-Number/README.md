@@ -45,7 +45,7 @@ Example 3:
 
 - **Language**: C++
 - **Runtime**: 0 ms
-- **Memory**: 7.7 MB
+- **Memory**: 7.9 MB
 
 ---
 
