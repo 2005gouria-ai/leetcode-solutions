@@ -1,14 +1,14 @@
 class Solution {
 public:
-    bool isPalindrome(int n) {
+    bool isPalindrome(int x) {
         int revNum = 0; // Initialize a variable to store the reverse of the number
-    int dup = n; // Create a duplicate variable to store the original number
+    int dup = x; // Create a duplicate variable to store the original number
 
     // Iterate through each digit of the number until it becomes 0
-    while (n > 0) {
-        int ld = n % 10; // Extract the last digit of the number
+    while (x > 0) {
+        int ld = x % 10; // Extract the last digit of the number
         revNum = (revNum * 10) + ld; // Build the reverse number by appending the last digit
-        n = n / 10; // Remove the last digit from the original number
+        x = x / 10; // Remove the last digit from the original number
     }
 
     // Check if the original number is equal to its reverse
